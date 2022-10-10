@@ -1,10 +1,10 @@
 #!/bin/bash/
 #SET UP THE DIRECTORIES :
 #This is where the bundles are :
-FOLDERS="rna_structure/test_bundles/*"
-#This is where you want them to go after processing :
-mkdir /Users/aniamarczynska/DataspellProjects/dsProject/rna_structure/processed_bundles/
-OUTPUTDIR="/Users/aniamarczynska/DataspellProjects/dsProject/rna_structure/processed_bundles/"
+FOLDERS="rna_structure/_bundles/*"
+#This is where you want them saved after processing :
+mkdir /rna_structure/processed_bundles/
+OUTPUTDIR="/rna_structure/processed_bundles/"
 mkdir "$OUTPUTDIR"unmatched_chains/
 for bundlefol in $FOLDERS
 do
